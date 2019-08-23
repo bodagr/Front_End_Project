@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script	src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF7c75QtVsWd4FTPOWCdf1tatiM87nJhw&callback=initMap"></script>
+	<script src="js/fotorama.js"></script>
+	<script scr="js/script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700|Roboto:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>		
+	<title>Travelers. Diploma Project</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#">
+				      	<img src="img/Logo.png" alt="">
+				      </a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav navbar-right">
+				        <li><a href="#places">Hot Deals</a></li>
+				        <li><a href="#special-offers">Travel Info</a></li>				      
+				        <li><a href="#gallery">Gallery</a></li>				      
+				        <li><a href="#about">About Us</a></li>				      
+				        <li><a href="#contact">Contact</a></li>			      
+				        				      
+				      </ul>				      
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</div>
+		</div>
+
+
+
+		<div class="container-fluid"> <!-- /.slider -->
+			<div class="row">
+					<div class="slider">
+					<div class="slider-row">
+																			<!--Slider item 1-->
+						<div class="slider-item active-slider-item">
+							<div class="slidershow">
+								<img class="img-responsive" src="img/Slider/slide_1.jpg" alt="">
+							</div>
+							<div class="container slider-content">
+								<div class="row vertical-align">
+								<div class="col-xs-1">
+									<div class="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+									</div>	
+								</div>
+								<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-5 col-lg-6">				
+									<div class="slider-head-text">
+										<h1>Welcome to travelers</h1>
+										<h2>Arranging tours</h2>
+									</div>
+								</div>	
+								<div class="hidden-xs col-sm-5 col-md-4 col-lg-4">
+									<div class="slider-info">
+										<div class="slider-info-head">
+											<h3>GO with US</h3>
+											<h4>Special offer</h4>
+										</div>
+										<div class="slider-info-body">
+											<h3>Venezia,</h3>
+											<h4>Italy</h4>
+											<div class="slider-info-body-dep">
+												<div class="slider-info-body-arrival">
+													<h5>Departure:</h5>
+													<p>20 January 2018</p>
+												</div>
+												<div class="slider-info-body-arrival">
+													<h5>Arrival:</h5>
+													<p>27 January 2018</p>
+												</div>
+											</div>
+											<div class="slider-info-body-content">
+												<ul>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>5 star hotel</li>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>ocean view</li>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>free breakfast</li>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>2 person</li>
+												</ul>
+											</div>	
+											<div class="slider-button">
+												<button>Get This Deal</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-1">
+									<div class="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+																	<!--Slider item 2-->
+						<div class="slider-item">
+							<div class="slidershow">
+								<img class="img-responsive" src="img/Slider/slide_2.jpg" alt="">
+							</div>
+							<div class="container slider-content">
+								<div class="row vertical-align">
+								<div class="col-sm-1 vcenter">
+									<div class="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+									</div>	
+								</div>
+								<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-5 col-lg-6">					
+									<div class="slider-head-text">
+										<h1>Welcome to travelers</h1>
+										<h2>Arranging tours</h2>
+									</div>
+								</div>	
+								<div class="hidden-xs col-sm-5 col-md-4 col-lg-4">
+									<div class="slider-info">
+										<div class="slider-info-head">
+											<h3>GO with US</h3>
+											<h4>Special offer</h4>
+										</div>
+										<div class="slider-info-body">
+											<h3>St.Moritz,</h3>
+											<h4>Switzerland</h4>
+											<div class="slider-info-body-dep">
+												<div class="slider-info-body-arrival">
+													<h5>Departure:</h5>
+													<p>20 January 2018</p>
+												</div>
+												<div class="slider-info-body-arrival">
+													<h5>Arrival:</h5>
+													<p>27 January 2018</p>
+												</div>
+											</div>
+											<div class="slider-info-body-content">
+												<ul>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>5 star hotel</li>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>ocean view</li>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>free breakfast</li>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>2 person</li>
+												</ul>
+											</div>	
+											<div class="slider-button">
+												<button>Get This Deal</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-1 vcenter">
+									<div class="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+															<!--Slider item 3-->
+						<div class="slider-item">
+							<div class="slidershow">
+								<img class="img-responsive" src="img/Slider/slide_3.jpg" alt="">
+							</div>
+							<div class="container slider-content">
+								<div class="row vertical-align">
+								<div class="col-sm-1 vcenter">
+									<div class="prev">
+										<i class="fa fa-angle-left" aria-hidden="true"></i>
+									</div>	
+								</div>
+								<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-5 col-lg-6">				
+									<div class="slider-head-text">
+										<h1>Welcome to travelers</h1>
+										<h2>Arranging tours</h2>
+									</div>
+								</div>	
+								<div class="hidden-xs col-sm-5 col-md-4 col-lg-4">
+									<div class="slider-info">
+										<div class="slider-info-head">
+											<h3>GO with US</h3>
+											<h4>Special offer</h4>
+										</div>
+										<div class="slider-info-body">
+											<h3>Miami,</h3>
+											<h4>Usa</h4>
+											<div class="slider-info-body-dep">
+												<div class="slider-info-body-arrival">
+													<h5>Departure:</h5>
+													<p>20 January 2018</p>
+												</div>
+												<div class="slider-info-body-arrival">
+													<h5>Arrival:</h5>
+													<p>27 January 2018</p>
+												</div>
+											</div>
+											<div class="slider-info-body-content">
+												<ul>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>5 star hotel</li>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>ocean view</li>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>free breakfast</li>
+													<li><i class="fa fa-check-circle" aria-hidden="true"></i>2 person</li>
+												</ul>
+											</div>	
+											<div class="slider-button">
+												<button>Get This Deal</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-1 vcenter">
+									<div class="next">
+										<i class="fa fa-angle-right" aria-hidden="true"></i>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					</div>
+			</div>
+		</div>
+	</header>	
+
+		<section id="info" class="pdd-t">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h2>Why we?</h2>
+						<div class="blue-line center-block"></div>
+						<h3>Get matched to top travel specialists</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0">
+						<div class="info-item">
+							<img src="img/info/People.svg" alt="clients">
+							<h4>Over <span class="text-blue">80 000+</span> Clients</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+						</div>
+					</div>
+					<div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0">
+						<div class="info-item">
+							<img src="img/info/Speech.svg" alt="agents">
+							<h4><span class="text-blue">300</span> Professional Agents</h4>
+							<p>Go beyond your imagination with unique experiences recommended by experts.</p>
+						</div>
+					</div>
+					<div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0">
+						<div class="info-item">
+							<img src="img/info/Globe.svg" alt="tours">
+							<h4>MORE THAN <span class="text-blue">130</span> TOURS</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+						</div>
+					</div>
+					<div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0">
+						<div class="info-item">
+							<img src="img/info/Medal.svg" alt="experiance">
+							<h4><span class="text-blue">15</span>  YEARS OF EXPERIANCE</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="places" class="pdd-t pdd-bt">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h2>Where do you want to go?</h2>
+						<div class="blue-line center-block"></div>
+						<h3>only the best deals</h3>
+					</div>
+				</div>
+				<div class="row row-centered pdd-t">
+					<div class="col-xs-12 col-sm-4 col-md-3 places-item col-centered">
+						<img src="img/Where_to_go/europe.jpg" alt="" class="img-responsive">
+						<div class="places-wrapper">
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+							<h2>Europe</h2>
+						</div>
+						<div class="places-overlay">
+							<div>
+								<h2>Europe</h2>
+								<div class="button-main">
+									<button>Find Tours</button>
+								</div>
+							</div>	
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-3 places-item col-centered">
+						<img src="img/Where_to_go/asia.jpg" alt="" class="img-responsive">
+						<div class="places-wrapper">
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+							<h2>Asia</h2>
+						</div>
+						<div class="places-overlay">
+							<div>
+								<h2>Asia</h2>
+								<div class="button-main">
+									<button>Find Tours</button>
+								</div>
+							</div>	
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-3 places-item col-centered">
+						<img src="img/Where_to_go/south.jpg" alt="" class="img-responsive">
+						<div class="places-wrapper">
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+							<h2>Australia, New Zeland & South Pacific</h2>
+						</div>
+						<div class="places-overlay">
+							<div>
+								<h2>Australia, New Zeland & South Pacific</h2>
+								<div class="button-main">
+									<button>Find Tours</button>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-centered">
+					<div class="col-xs-12 col-sm-4 col-md-3 places-item col-centered">
+						<img src="img/Where_to_go/africa.jpg" alt="" class="img-responsive">
+						<div class="places-wrapper">
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+							<h2>Africa & the Middle West</h2>
+						</div>
+						<div class="places-overlay">
+							<div>
+								<h2>Africa & the Middle West</h2>
+								<div class="button-main">
+									<button>Find Tours</button>
+								</div>
+							</div>	
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-3 places-item col-centered">
+						<img src="img/Where_to_go/north_america.jpg" alt="" class="img-responsive">
+						<div class="places-wrapper">
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+							<h2>North America</h2>
+						</div>
+						<div class="places-overlay">
+							<div>
+								<h2>North America</h2>
+								<div class="button-main">
+									<button>Find Tours</button>
+								</div>
+							</div>	
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-3 places-item col-centered">
+						<img src="img/Where_to_go/latin_america.jpg" alt="" class="img-responsive">
+						<div class="places-wrapper">
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+							<h2>Latin America</h2>
+						</div>
+						<div class="places-overlay">
+							<div>
+								<h2>Latin America</h2>
+								<div class="button-main">
+									<button>Find Tours</button>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cap"></section>
+
+		<section id="special-offers" class="pdd-t pdd-bt">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h2>Special Offers</h2>
+						<div class="blue-line center-block"></div>
+						<h3>Find the best hot deals for yourself</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4 pdd-t">
+						<div class="special-offer-item">
+							<div class="special-offer-item-head">
+								<h3>Cruises</h3>
+							</div>
+							<div class="special-offer-item-body">
+								<img class="img-responsive" src="img/Special_offer/cruises.jpg" alt="Cruises">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamco laboris nisi ut aliquip ex ea</p>
+								<div class="special-offer-item-button">
+									<button>More info</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 pdd-t">
+						<div class="special-offer-item">
+							<div class="special-offer-item-head special-offer-item-head-gr">
+								<h3>Hiking</h3>
+							</div>
+							<div class="special-offer-item-body">
+								<img class="img-responsive" src="img/Special_offer/hiking.jpg" alt="Hiking">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamco laboris nisi ut aliquip ex ea</p>
+								<div class="special-offer-item-button btn-gr">
+									<button>More info</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 pdd-t">
+						<div class="special-offer-item pdd">
+							<div class="special-offer-item-head special-offer-item-head-yl">
+								<h3>Beach</h3>
+							</div>
+							<div class="special-offer-item-body">
+								<img class="img-responsive" src="img/Special_offer/beach.jpg" alt="Beach">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamco laboris nisi ut aliquip ex ea</p>
+								<div class="special-offer-item-button btn-yl">
+									<button>More info</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+
+		<section id="subscribe">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<div class="subs-w">
+						  <div class="subscribe-wrapper">
+						    <div>
+									<h3>Get our offers to your inbox</h3>
+									<p>leave us your mail we will take care of the rest.</p>
+						    </div>
+						  </div>
+						</div>	
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="subs-form button-main">
+							<form action="https://gsclasses-ajax.herokuapp.com/contact" method="post" novalidate>
+								<input type="email">
+								<input type="submit" value="Subscribe">
+								<p><small id='email-subs-empty'>Enter your e-mail!</small></p>
+								<p><small id='email-subs-invalid'>You entered wrong e-mail!</small></p>
+							</form>
+						</div>  
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="travel-info" class="pdd-t pdd-bt">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h2>4 Steps To The Perfect Trip</h2>
+						<div class="blue-line center-block"></div>
+						<p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dm mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. </p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="hidden-xs col-sm-6">
+						<div class="img-wrapper">
+							<img class="img-responsive" src="img/beach-rest.jpg" alt="rest">
+						</div>
+					</div>
+					<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
+						<div class="info-wrapper">
+							<div class="info-wrapper-item">								
+								<h3>1</h3>
+								<p>You tell us the destinations, dates and preferred ingredients of your dream trip.</p>
+							</div>
+							<div class="info-wrapper-item">
+								<h3>2</h3>
+								<p>We match you with 2-3 top travel specialists and link them to your private information.</p>
+							</div>
+							<div class="info-wrapper-item">
+								<h3>3</h3>
+								<p>They compete for your business, offering expert advice and developing detailed proposals.</p>
+							</div>
+							<div class="info-wrapper-item">
+								<h3>4</h3>
+								<p>You purchase the ideal itinerary after it’s refined to perfection with you.</p>
+							</div>
+							<div class="info-wrapper-btn button-main">
+								<button>Let's start planing my trip</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+
+		<section id="gallery" class="pdd-t">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h2>Photo Gallery</h2>
+						<div class="blue-line center-block"></div>
+						<h3>Clix From Previous Tours Of Our Customers</h3>
+					</div>
+				</div>
+				<div class="row pdd-t">
+					<!-- <div class="gallery-slider">
+						<div class="gallery-slider-line">
+							<img src="img/Gallery/hiking_2.jpg" alt="" class="img-responsive">
+							<img src="img/Gallery/beach_2.jpg" alt="" class="img-responsive">
+							<img src="img/Gallery/hiking.jpg" alt="" class="img-responsive">
+							<img src="img/Gallery/cruises_2.jpg" alt="" class="img-responsive">
+							<img src="img/Gallery/cruises_2.jpg" alt="" class="img-responsive">
+							<img src="img/Gallery/cruises_2.jpg" alt="" class="img-responsive">
+						</div> -->
+						<div class="col-xs-12 col-sm-6 col-md-3 gallery-item">
+							<img src="img/Gallery/hiking_2.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 gallery-item">
+							<img src="img/Gallery/beach_2.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 gallery-item">
+							<img src="img/Gallery/hiking.jpg" alt="" class="img-responsive">
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 gallery-item">
+							<img src="img/Gallery/cruises_2.jpg" alt="" class="img-responsive">
+						</div>
+
+					</div>	
+					<div class="clearfix"></div>
+					<div class="gallery-navigation">
+						<div class="g-left-arrow">
+							<i class="fa fa-angle-left" aria-hidden="true"></i>
+						</div>
+						<div class="g-right-arrow">
+							<i class="fa fa-angle-right" aria-hidden="true"></i>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="cap-2"></section>
+
+		<section id="contact" class="pdd-t pdd-bt">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h2>Get in Touch</h2>
+						<div class="blue-line center-block"></div>
+						<h3>the best way to connect with us</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<div id="contact-map">
+							
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<form action="https://gsclasses-ajax.herokuapp.com/contact" id="contact-form" method="post" novalidate>
+							<h1>Contact Us</h1>
+							<p>
+								<input type="text" id="name-input" placeholder="Name..." name='name'>				
+								<p><small id='name-empty'>Please enter you name!</small></p>
+								<p><small id='name-invalid' class="input-hide-class">Your 'name' must consist 2 or more symbols!</small></p>
+							</p>
+							<p>
+								<input type="email" placeholder="Your e-mail..." name='email'>
+								<p><small id='email-empty'>Enter your e-mail!</small></p>
+								<p><small id='email-invalid'>You entered wrong e-mail!</small></p>
+							</p>	
+							<p>
+								<input type="text" id="tel-input" placeholder="Telephone number..." name='telephone'>
+								<p><small id='tel-empty'>Enter your number!</small></p>
+								<p><small id='tel-invalid'>Telephone must be more than 10 symbols and consist only numbers!</small></p>
+							</p>	
+							<p>
+								<textarea placeholder="Message..."></textarea>
+								<p><small id='comment-empty'>No symbols entered!</small></p>
+								<p><small id='comment-invalid'>You entered less than 6 symbols!</small></p>
+							</p>
+							<p>
+									<input type="submit" value="Send Message">
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>	
+		</section>
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-5 hidden-xs col-sm-3">
+						<img src="img/Logo-footer.png" alt="">
+						<div class="footer-info">
+							<i class="fa fa-map-marker" aria-hidden="true"><span>175 N State St, Chicago, IL 60601</span></i>
+							<i class="fa fa-mobile" aria-hidden="true"><span>(423) 321 44 55</span></i>
+						</div>						
+					</div>
+					<div class="col-xs-12 col-sm-2 footer-navigation">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Deals</a></li>
+							<li><a href="#">Travel info</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-5">
+						<div class="footer-social">
+							<div class="social-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+							<div class="social-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
+							<div class="social-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+							<div class="social-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+							<div class="social-item"><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></div>
+							<div class="social-item"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
+							<div class="social-item"><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></div>
+						</div>
+					</div>
+					<div class="col-12-xs hidden-xs col-sm-2">
+						<ul class="footer-privacy">
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Tearms of Use</a></li>
+							<li><a href="#">Support</a></li>
+					</div>
+				</div>
+				<div class="row">
+					<div class="footer-license">
+						<p>©2018. All Rights Reserved. Designed & Developed By: <span>iQube.des</span></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
